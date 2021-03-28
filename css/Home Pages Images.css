@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    font-family: Arial, Helvetica, 'sans-serif';
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("https://wallpaperaccess.com/full/2689028.jpg"); }
+  .img2 { background-image: url("https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80"); }
+  .img3 { background-image: url("https://free4kwallpapers.com/uploads/originals/2019/11/16/night-city-buildings-wallpaper.jpg"); }
+  .img4 { background-image: url("https://i.pinimg.com/originals/72/76/16/72761610cbf83a6d0bd249f8e1a87efc.jpg"); }
+    
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .sma-text {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  
